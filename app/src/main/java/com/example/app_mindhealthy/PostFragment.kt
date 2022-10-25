@@ -1,6 +1,5 @@
 package com.example.app_mindhealthy
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -11,7 +10,6 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
-import androidx.navigation.fragment.findNavController
 import com.example.app_mindhealthy.databinding.FragmentPostBinding
 import com.example.app_mindhealthy.model.Postagem
 import com.example.app_mindhealthy.model.Temas
@@ -116,14 +114,12 @@ class PostFragment : Fragment() {
     }
 
 
-    private fun carregarDados(){
-      postagemSelecionada = mainViewModel.postagemSeleciona
-        if (postagemSelecionada != null){
+    private fun carregarDados() {
+        if (postagemSelecionada != null) {
             binding.editTextTitulo.setText(postagemSelecionada?.titulo)
             binding.editTextPost.setText(postagemSelecionada?.descricao)
             binding.editTextLinkImage.setText(postagemSelecionada?.imagem)
-
-        }
+        } else postagemSelecionada = mainViewModel.postagemSeleciona
 
     }
 

@@ -3,13 +3,13 @@
 
 <img src="https://user-images.githubusercontent.com/108539194/195709743-24e9546d-9bc2-4718-be25-7370645528c9.png" height="200" width="200" align="right">
 
-## Descrição e Objetivo do projeto:
+## Descrição e Objetivo do Projeto:
 <p>Nosso objetivo é conectar pessoas que buscam por uma melhora em sua saúde mental, com a ajuda de profissionais que possam trazer um valor acessivel em suas consultas, e também com outras pessoas que já passaram por algo parecido e que podem compartilhar experiências através de dicas ou grupos de apoio.
 
 Acreditamos que uma grande parte da população possa encontrar a facilidade de conexão com psicólogos e a acessibilidade nos valores das consultas,
 no app você será capaz de ver as postagens de outros usuários, além de fazer as suas próprias postagens e poderá selecionar uma hashtag de um tema podendo editar e excluir-las também.</p>
 
-## Ferramentas usadas:
+## Ferramentas Utilizadas:
 
 ### Back-End
 
@@ -23,8 +23,8 @@ no app você será capaz de ver as postagens de outros usuários, além de fazer
 - Kotlin
 - Android (RetroFit, Hilt, Corrotinas, Glide)
 
-<div align="center" valign="top"><br>
-  <p align="center">Stack de desenvolvimento! </p>
+<div align="center" align="top"><br>
+  <p align="center">Stack de Desenvolvimento! </p>
   <img align="center" alt="Mind-Kt" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
   <img align="center" alt="Mind-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">         <img align="center" alt="Mind-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Mind-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">    
@@ -33,7 +33,7 @@ no app você será capaz de ver as postagens de outros usuários, além de fazer
   <img align="center" alt="nodejs" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg">
 </div><br>
 
-# Autores:
+# Contribuidores:
 
 <table>
 <tr>

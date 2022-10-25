@@ -32,20 +32,21 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Nosso Projeto"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="O projeto foi definido com base nas ODS da ONU e uma delas é saúde e bem estar ! escolhemos optar por uma rede social afinal é onde as pessoas passam a maior parte do tempo. Mas antes precisávamos entender do que iriamos tratar nela e escolhemos SAUDE MENTAL pois é um dos problemas mais abrangentes na sociedade atual por ser pouco discutido e sabemos que nossa sociedade cada vez mais enfrenta esses problemas."
-                android:textSize="16dp" />
+
+                android:text=" O projeto foi definido com base nas ODS da ONU e uma delas é saúde e bem estar ! escolhemos optar por uma rede social afinal é onde as pessoas passam a maior parte do tempo. Mas antes precisávamos entender do que iriamos tratar nela e escolhemos SAUDE MENTAL pois é um dos problemas mais abrangentes na sociedade atual por ser pouco discutido e sabemos que nossa sociedade cada vez mais enfrenta esses problemas."
+                android:textSize="16sp"  android:layout_margin="10dp"  tools:ignore="HardcodedText"/>
 
             <TextView
                 android:id="@+id/textView3"
@@ -54,15 +55,15 @@
                 android:layout_margin="10dp"
                 android:text="Nossa Missão"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" tools:ignore="HardcodedText"/>
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Nossa missão é levar apoio a pessoas que necessitam apoio psicologico e não procuram ou tem dificuldade em encontrar profissionais."
-                android:textSize="16dp" />
+
+                android:text=" Nossa missão é levar apoio a pessoas que necessitam apoio psicologico e não procuram ou tem dificuldade em encontrar profissionais."
+                android:textSize="16sp" tools:ignore="HardcodedText" android:layout_margin="10dp"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -71,15 +72,15 @@
                 android:layout_margin="10dp"
                 android:text="Sobre transtornos mentais"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" tools:ignore="HardcodedText"/>
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Os transtornos mentais podem ser desenvolvidos a partir de uma combinação de fatores biológicos (predisposição genética), psicológicas (quadros de estresse intensos e características da personalidade da pessoa) e sociais (agressões externas e contexto social em que vive o paciente). "
-                android:textSize="16dp" />
+                android:layout_marginStart="10dp"
+                android:text=" Os transtornos mentais podem ser desenvolvidos a partir de uma combinação de fatores biológicos (predisposição genética), psicológicas (quadros de estresse intensos e características da personalidade da pessoa) e sociais (agressões externas e contexto social em que vive o paciente). "
+                android:textSize="16sp" tools:ignore="HardcodedText" android:layout_margin="10dp"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

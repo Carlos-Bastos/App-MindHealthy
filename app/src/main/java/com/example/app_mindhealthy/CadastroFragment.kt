@@ -21,7 +21,7 @@ class CadastroFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentCadastro2Binding.inflate(layoutInflater, container, false)
 
@@ -35,10 +35,10 @@ class CadastroFragment : Fragment() {
         return !(
                 (nome == "" || nome.length < 3 || nome.length > 60) ||
                         (sobrenome == "" || sobrenome.length < 3 || sobrenome.length > 60) ||
-                        (idade == "" || idade.length < 0 || idade.length > 3) ||
+                        (idade == "" || idade.isEmpty() || idade.length > 3) ||
                         (email == "" || email.length < 3 || email.length > 60) ||
-                        (foto == "" || foto.length < 3 || foto.length > 60) ||
-                        (senha == "" || nome.length < 3 || nome.length > 60)
+                        (foto == "" || foto.length < 3 || foto.length > 240) ||
+                        (senha == "" || nome.length < 8 || nome.length > 12)
                 )
     }
     private fun inserirNoBanco(){
